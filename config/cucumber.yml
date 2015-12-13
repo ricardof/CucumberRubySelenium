@@ -1,0 +1,7 @@
+# config/cucumber.yml
+##YAML Template
+---
+chrome: PLATFORM=web BROWSER=chrome DRIVER_PATH=driver/chrome/chromedriver.exe -r features/support -r features/web -r features/step_definitions -r features/web/pages
+firefox: PLATFORM=web BROWSER=firefox DRIVER_PATH=driver/firefox/FirefoxPortable/FirefoxPortable.exe -r features/support -r features/web -r features/step_definitions -r features/web/pages
+ie: PLATFORM=web BROWSER=ie DRIVER_PATH=driver/ie/IEDriverServer.exe -r features/support -r features/web -r features/step_definitions -r features/web/pages
+edge: PLATFORM=web BROWSER=edge DRIVER_PATH=driver/edge/MicrosoftWebDriver.exe -r features/support -r features/web -r features/step_definitions -r features/web/pages
