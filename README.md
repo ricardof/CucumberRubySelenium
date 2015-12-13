@@ -14,7 +14,11 @@ Feature: As a user, I wish to generate a temporary email and use it
 ```
 
 ## Requirements
-*Ruby 2.0.0p657 (may work in later version too)   
+*Ruby 2.0.0p657 (may work in later version too)  
+Install bundler gem:   
+```
+gem install bundler
+```
 
 *WebDriver   
 Find it [here](http://www.seleniumhq.org/download/)   
@@ -33,6 +37,10 @@ Download the target one and save it somewhere in your file system
 
 ## How to use    
 Using the command-line, navigate to the project's root directory and run:   
+*Install dependencies*   
+```
+bundle install
+```
 *Default browser dimensions are 1080Wx720H*   
 ```
 cucumber BROWSER=TARGETBROWSER [WIDTH=TARGETWIDTH HEIGHT=TARGETHEIGHT] DRIVER_PATH=TRAGETDRIVERPATH
